@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 1 - Secret Entrance", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretEntrance", "SecretEntrance\SecretEntrance.csproj", "{B278B963-CEB6-43C7-9468-FE36AD323374}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretEntrance.UnitTests", "SecretEntrance.UnitTests\SecretEntrance.UnitTests.csproj", "{378B0699-BF2F-4227-AD9F-96E99410E8AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +13,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B278B963-CEB6-43C7-9468-FE36AD323374} = {A67A785A-FC46-46A4-ACFB-4717CB2DBB49}
+		{378B0699-BF2F-4227-AD9F-96E99410E8AA} = {A67A785A-FC46-46A4-ACFB-4717CB2DBB49}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B278B963-CEB6-43C7-9468-FE36AD323374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B278B963-CEB6-43C7-9468-FE36AD323374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B278B963-CEB6-43C7-9468-FE36AD323374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B278B963-CEB6-43C7-9468-FE36AD323374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378B0699-BF2F-4227-AD9F-96E99410E8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378B0699-BF2F-4227-AD9F-96E99410E8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378B0699-BF2F-4227-AD9F-96E99410E8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378B0699-BF2F-4227-AD9F-96E99410E8AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
